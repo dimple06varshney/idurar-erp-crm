@@ -49,7 +49,7 @@ async function setupApp() {
 
     await Setting.insertMany(settingFiles);
 
-    console.log('👍 Settings created : Done!');
+    console.log('👍 Settings created : Done! testing');
 
     const Currency = require('../models/appModels/Currency');
     const { currencyList } = require('../utils/currencyList');
